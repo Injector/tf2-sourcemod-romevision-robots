@@ -1,2 +1,24 @@
-# tf2-sourcemod-romevision-robots
-Makes bots as romevision robots
+# TF2 SourceMod Romevision Robots
+
+Превращает ботов в роботов из Римовидения
+
+Turn bots into romevision robots
+
+# Установка / Install
+
+На сервере у вас должно быть установлен плагин TF2Attributes, скачать можно здесь https://forums.alliedmods.net/showthread.php?t=210221
+
+Поместить romevisionrobots.smx в sourcemod/plugins
+Поместить tf2romebots.offsets.txt в sourcemod/gamedata
+(Не обязательно) Поместить romevisionrobots.sp в sourcemod/scripting
+
+You need TF2Attributes plugin for this, you can download here https://forums.alliedmods.net/showthread.php?t=210221
+
+Put romevisionrobots.smx into sourcemod/plugins
+Put tf2romebots.offsets.txt into sourcemod/gamedata
+(Optional) Put romevisionrobots.sp into sourcemod/scripting
+
+# Другое / Other
+
+Данный плагин включает превращение игрока в римского робота, но нужно расскоментировать строку 189, скорее всего будут баг с исчезновением шляп на некоторых римских ботов.
+This plugin also include turn player into the romebot, but you need to uncomment line 189, you'll also run into bug when hats are invisible on some romebots.
